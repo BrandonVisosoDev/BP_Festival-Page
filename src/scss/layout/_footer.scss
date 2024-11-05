@@ -1,0 +1,19 @@
+@use 'base/variables' as v;
+
+
+.footer{
+    background-color: v.$rosa;
+    text-align: center;
+    padding: 2rem 0;
+    
+    p{
+
+        font-size: 3rem;
+        font-weight: 700;
+        margin: 0; /*Todos los p tienen margen*/
+        color: v.$blanco;
+        
+
+    }
+
+}
